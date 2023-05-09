@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+nav{
+    background-color: blueviolet;
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+label.logo{
+    color: aliceblue;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+nav ul li a{
+color: wheat;
+font-size: 17px;
+padding: 7px 13px;
+
+}
+a.active, a:hover{
+    background-color: rgb(43, 0, 59);
+    transition: 3s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: wheat;
+    float: right;
+    line-height: 80px;
+    margin: right 40px; ;
+    cursor: pointer;
+    
+   
+}
+#check{
+    display:none;
+
+}
+@media(max-width: 952px){
+    label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+    }
+    nav ul li{
+        font-size: 16px;
+    }
+}
+@media(max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background:rgb(43, 0, 59) ;
+        top: 80px;
+        left: 0;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a.active, a:hover{
+        background: none;
+        color: rgb(208, 0, 255);
+    }
+    #check:checked{
+        left: 100;
+        
+    }
+
+
+}
+body{
+    background-image: url(https://img.olhardigital.com.br/wp-content/uploads/2021/04/Galaxia-scaled.jpg);
+    color: bisque;
+    margin: 0%; 
+}
+section{
+    text-align: justify;
+  margin-left: 22%;
+  margin-right: 22%;
+  width: 55%;
+  text-indent: 50px;
+  font-size: large; 
+  border: 3px solid rgb(40, 4, 245);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  background-color: rgba(47, 0, 142, 0.484) ;
+  border-radius: 2rem;
+  color: rgb(255, 255, 255);
+  width: 50%;
+  text-align: center;
+  font-size: x-large;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+
+   img{
+        width: 60%;
+        height: 60%;
+   }
+   footer{
+    background-color: rgb(16, 91, 231);
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+   }
+  
+#gato{
+  text-align: center;
+}
+    
+
