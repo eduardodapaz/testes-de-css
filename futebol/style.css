@@ -1,0 +1,62 @@
+*{
+    margin: 0 0;
+    list-style: none;
+}
+body{
+    background-image: url(https://png.pngtree.com/png-vector/20220621/ourmid/pngtree-soccer-field-or-football-pitch-png-image_5151643.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+}
+.logo{
+    width: 90px;
+    height: 90px;
+}
+body{
+    display: grid;
+    grid-template:
+    "cc cc cc "
+    "cp cp mm"
+    "cp cp mm"
+    "pp pp pp ";
+}
+.cabeca{
+    grid-area: cc;
+    
+}
+.menu{
+    grid-area: mm;
+   
+}
+.corpo{
+    grid-area: cp;
+   
+    text-align: center;
+    font-size: larger;
+
+}
+.rodape{
+    grid-area: pp;
+}
+.espaco{
+    grid-area: ee;
+   
+}
+.cabeca, .corpo, .menu, .rodape, .espaco {
+    background-color: rgba(0, 0, 0, 0.695);
+   margin: 20px;
+   
+}
+.corpo{
+    text-align: center;
+    font-size: larger;
+
+}
+nav ul li a{
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+font-size: 17px;
+padding: 7px 13px;
+background-color: green;
+border-radius: 2rem;
+}
